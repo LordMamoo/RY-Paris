@@ -71,9 +71,10 @@ a:hover {
 }
 
 .every-images img {
-    width: 250px;
+    width: 200px;
     height: 100%;
     border-radius: 10px;
+    object-fit: cover;
 }
 
 .breakfast {
@@ -99,5 +100,48 @@ a:hover {
     flex-direction: column;
     align-items: center;
     background-color: lightgrey;
+    max-height: 100%;
+}
+
+.healthy-images {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.healthy-images span {
+    background-color: white;
+    width: 100%;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.healthy img {
+    width: 200px;
+    height: 100%;
+}
+
+.fajita {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.muffin {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.eggplant {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.chicken {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
