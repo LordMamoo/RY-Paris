@@ -58,7 +58,7 @@ a:hover {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding: 0 20px 10px;
+    padding: 0 20px 15px;
     background-color: lightgray;
 }
 
@@ -85,11 +85,57 @@ a:hover {
     padding: 20px;
 }
 
+.description h2 {
+    font-size: 40px;
+}
+
+.description button {
+    font-size: 15px;
+    border-radius: 10px;
+    color: white;
+    background-color: red;
+}
+
+.description button:hover {
+    background-color: blue;
+}
+
+.checked {
+    color: orange;
+  }
+
 .description p {
     font-size: 20px;
     padding: 20px 100px;
     background-color: lightgray;
     width: 80%;
+}
+
+.recipe {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 90px;
+    max-width: 100%;
+}
+
+.recipe h3 {
+    font-size: 30px;
+}
+
+.recipe ul, ol {
+    padding: 0;
+}
+
+.ingredients {
+    width: 50%;
+}
+
+.instructions {
+    width: 100%;
+}
+
+li {
+    padding-bottom: 8px;
 }
 
 footer {
