@@ -59,18 +59,16 @@ a:hover {
 .everyday {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    padding: 0 50px 20px 50px;
+    padding: 0 50px 20px;
     max-height: 100%;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 .everyday-txt {
-    padding: 0 20px;
-    border-radius: 10px;
+    margin: 20px 0;
 }
 
-.description {
+.script {
     font-size: 18px;
 }
 
@@ -84,6 +82,10 @@ a:hover {
     flex-direction: column;
     align-items: center;
     width: 25%;
+}
+
+.meal a {
+    padding: 10px;
 }
 
 .everyday img {
@@ -100,11 +102,14 @@ a:hover {
 .healthy {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    padding: 0 50px 10px;
+    padding: 0 50px 20px;
     background-color: lightgrey;
     max-height: 100%;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+.healthy-txt {
+    margin: 20px 0;
 }
 
 .healthy-images {
@@ -141,9 +146,13 @@ a:hover {
 .location {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    padding: 0 20px;
-    max-height: 100%;    font-family: Arial, Helvetica, sans-serif;
+    padding: 0 50px 20px;
+    max-height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.location-txt {
+    margin: 20px 0;
 }
 
 .location-images {
@@ -163,13 +172,6 @@ a:hover {
 
 .location span {
     font-size: 18px;
-}
-
-.place {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 25%;
 }
 
 .bengal-hero {
