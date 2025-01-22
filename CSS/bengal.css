@@ -52,6 +52,7 @@ a:hover {
     width: 35%;
     border-radius: 10px;
     background-color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .details {
@@ -60,6 +61,7 @@ a:hover {
     justify-content: space-between;
     padding: 0 20px 15px;
     background-color: lightgray;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .details h3 {
@@ -83,6 +85,7 @@ a:hover {
     flex-direction: column;
     align-items: center;
     padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .description h2 {
@@ -112,8 +115,8 @@ a:hover {
 }
 
 .description p {
-    font-size: 20px;
-    padding: 20px 100px;
+    font-size: 25px;
+    padding: 20px 200px;
     background-color: lightgray;
     width: 60%;
 }
@@ -123,26 +126,40 @@ a:hover {
     justify-content: space-between;
     margin: 0 90px;
     max-width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .recipe h3 {
     font-size: 30px;
+    margin: 20px 0;
 }
 
-.recipe ul, ol {
+.recipe ol {
     padding: 0;
+    margin: 0;
 }
 
 .ingredients {
     width: 50%;
 }
 
-.instructions {
-    width: 100%;
+.ingredients li {
+    padding-bottom: 5px;
+    font-size: 18px;
 }
 
-li {
-    padding-bottom: 8px;
+h4 {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.instructions {
+    width: 50%;
+}
+
+.instructions li {
+    font-size: 18px;
+    padding-bottom: 25px;
 }
 
 footer {
