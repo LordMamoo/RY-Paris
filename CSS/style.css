@@ -178,8 +178,8 @@ a:hover {
     background-image: url(../images/bengal-burger.jpg);
     background-size: cover;
     width: 100%;
-    height: 400px;
-    align-content: end;
+    height: 500px;
+    align-content: center;
 }
 
 .bengal-hero h1 {
