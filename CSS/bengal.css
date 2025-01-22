@@ -87,11 +87,18 @@ a:hover {
 
 .description h2 {
     font-size: 40px;
+    margin: 0;
+    padding: 10px;
+}
+
+.review {
+    padding: 5px;
 }
 
 .description button {
     font-size: 15px;
     border-radius: 10px;
+    margin: 10px;
     color: white;
     background-color: red;
 }
@@ -102,13 +109,13 @@ a:hover {
 
 .checked {
     color: orange;
-  }
+}
 
 .description p {
     font-size: 20px;
     padding: 20px 100px;
     background-color: lightgray;
-    width: 80%;
+    width: 60%;
 }
 
 .recipe {
